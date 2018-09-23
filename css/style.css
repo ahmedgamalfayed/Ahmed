@@ -1,0 +1,191 @@
+body {margin: 0; }
+
+.container { width:1200px ; margin: auto; position: relative}
+
+.header { width: 100%;  height: 840px; background-image: url('../image/shutterstock_432009058-1600x1080.jpg'); background-size: cover; color: #FFF; }
+
+.header .lay { width:100% ; height:840px; background-color: rgba(49, 55, 61, .5);  position: absolute; top: 0; left: 0;}
+
+.header .navbar {  font-size: 25px; left: 0; position: absolute; width: 100%; top: 0;  overflow: hidden }
+
+.header .navbar .links {float: right;}
+
+.main-color { color:#f7600e;}
+
+.text-center {text-align: center;}
+
+.main-background {background: #f7600e;}
+
+.header .intro {margin:60px auto; text-align: center; padding-top: 100px}
+
+.header .intro h2 {font-size: 80px;  margin-bottom: 0}
+
+.header .intro p {line-height: 1.6 ; font-size: 30px;}
+
+.upper {text-transform: uppercase;}
+
+.header .intro button {width:20%; padding: 10px 20px; margin: 15px; background: transparent; border:1px solid #CCC; transition: all 2s; font-size: 25px; border-radius: 20px; cursor: pointer;}
+
+.header .intro button:hover {background: #f7600e; color:#FFF;  border:1px solid #f7600e;}
+
+.header .arrow { bottom: 0; left: 0; position: absolute; width: 100%; text-align: center; margin-bottom: 15px; }
+
+.header .arrow i {border: 2px solid #CCC; border-radius: 15px; padding: 10px; cursor: pointer; margin: 10px }
+
+.features {padding: 40px 0; height: 350px; width: 100%; overflow: hidden; margin-top: 50px;  }
+
+.features .box { float: left; width: 22%; margin-right: 4%; }
+
+.features .box:last-child {margin-right: 0}
+
+.features .box i {margin-left: 30px; padding: 40px; border: 2px solid #CCC; border-radius: 50%; color:#f7600e; transition: all 2s ;}
+
+.features .box i:hover {background: #f7600e; color:#FFF; border: 2px solid #f7600e; }
+
+.features .box h2 {margin-left: 50px; color:#333; }
+
+.features .box p { line-height: 1.6; font-size: 18px; color:#888; } 
+
+.subscrib {  background-image: url('../images%20(5).jpg'); background-size: cover; width:100%; height: 300px;}
+
+ .overlay  { width:100% ; height:300px; background-color: rgba(49, 55, 61, .6);}
+
+.subscrib form {padding-top: 50px ; text-align: center; line-height: 200px; }
+
+.subscrib input { width: 40%; padding: 10px 20px; border-radius: 20px;}
+
+.subscrib button {width:20%; padding: 10px 20px; margin-left: 20px; background: transparent; font-size: 20px; border-radius: 30px; cursor: pointer;}
+
+.subscrib button.active {background:#f7600e; border:1px solid #f7600e; color:#FFF;}
+
+.our-work { padding: 50px 0;}
+
+.our-work h2 {font-weight: 800; font-size: 30px; margin-bottom: 10px}
+
+.our-work q  {line-height: 1.6; font-size: 25px; } 
+
+.our-work .item { overflow: hidden; } 
+
+.our-work .item .item-box { width: 30%; float: left; margin-bottom: 3%; margin-top: 3%; margin-right: 3%; position: relative;}
+
+.our-work .item .item-box img {width: 100%; border-radius: 30px;}
+
+.our-work .item .item-box .over {
+    position: absolute; 
+    top:0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background: rgba(247, 96, 14, .8);
+    color:#FFF;
+     border-radius: 30px;
+    display: none; 
+    transition: all 2s;
+    cursor: pointer; 
+}
+
+.our-work .item .item-box:hover .over {
+    
+    display: block;
+}
+
+.hello { display: none;}
+
+.our-work  .but {width:20%; padding: 10px 20px; margin: 15px; background: transparent; border:1px solid #CCC; transition: all 2s; font-size: 25px; border-radius: 20px; cursor: pointer; margin-top: 50px;}
+
+.our-work .but:hover {background: #f7600e; color:#FFF;  border:1px solid #f7600e;}
+
+.our-work  .over h4 {font-size: 20px; margin-bottom: 0}
+
+.our-work  .over p {line-height: 1.5;}
+
+.our-work  .over button {width:40%; padding: 10px 10px;  border:1px solid #CCC; transition: all 2s; font-size: 20px; border-radius: 20px; cursor: pointer; color: #f7600e; }
+
+.over { width:100% ; height:550px; background-color: rgba(49, 55, 61, .6);}
+
+.testiem {width:100%; height: 550px;}
+
+.testiem .client { padding: 50px 0; color:#FFF; font-size: 20px; font-style: italic;}
+
+.testiem .client img {border-radius: 50%;  } 
+
+.testiem .client p { line-height: 2; font-size: 29px; margin-left: 50px; margin-right: 50px;}
+
+.testiem .client span {font-size: 30px; }
+
+.testiem .fa-chevron-right,
+.testiem .fa-chevron-left {position: absolute; top:60%; cursor: pointer;}
+
+.testiem .fa-chevron-right:hover,
+.testiem .fa-chevron-left:hover {color:#f7600e;}
+
+.testiem .fa-chevron-right {right: 0;}
+
+.testiem .fa-chevron-left {left: 0;}
+
+
+.our-team { padding: 50px 0; width:100%; height: 600px;}
+
+.our-team h2 {font-weight: 800; font-size: 30px; margin-bottom: 10px}
+
+.our-team q  {line-height: 1.6; font-size: 25px; } 
+
+.our-team .team  .person{ width:25%; float: left; padding-top: 50px ; }
+
+.our-team .team  .person h3 {font-size: 20px; font-weight: normal; }
+
+.our-team .team  .person img { filter: gray; filter: grayscale(1);}
+
+.our-team .team  .person:hover img { filter: gray; filter: grayscale(0);}
+
+.our-team .team  .person:hover h3 { font-weight: 800 }
+
+.our-team .team  .person:hover .fa-facebook {background: #3b5998;}
+
+.our-team .team  .person:hover .fa-twitter {background: #55acee;}
+
+.our-team .team  .person:hover .fa-google {background: #dc4e41;}
+
+.our-team .team  .person .icons { padding: 7px; }
+
+.our-team .team  .person i { margin: 3px; border: 2px solid #CCC; border-radius: 50%; padding: 10px; background: #9da1a5; color:#FFF;}
+
+.our-team .team  .person p { line-height: 1.6; font-size: 25px; transition: all 1s; color:#555}
+
+.contact {width: 100%; height:680px; padding-top: 50px;  }
+
+.contact .overlays  { width:100% ; height:680px; background-color: rgba(49, 55, 61, .6);}
+
+.contact h2 { font-size: 30px; font-weight: 800; margin-bottom: 10px; padding-top: 50px;}
+
+.contact q  {line-height: 1.6; font-size: 25px; } 
+
+.contact form { width:700px; margin: auto; text-align: center; margin-top: 40px;}
+
+.contact form input {width: 45% ; margin-left: 2%; padding: 10px 20px; border-radius: 20px;}
+
+.contact form textarea {margin-top: 30px; width:100%;}
+
+.contact form button  {width:40%; padding: 10px 10px;  border:1px solid #CCC; transition: all 2s; font-size: 20px; border-radius: 20px; cursor: pointer;  float: left; margin-top: 30px; margin-bottom: 30px} 
+
+.contact form button:hover {background:#f7600e; border:1px solid #f7600e; color:#FFF;}
+
+.contact .icon i { margin: 3px; border: 2px solid #CCC; border-radius: 50%; padding: 10px; background: #9da1a5; color:#FFF; margin-top: 30px; }
+
+.contact .icon i:last-child { margin-right: 70px;}
+
+.contact .icon .fa-facebook {background: #3b5998; color:#FFF;}
+
+.contact .icon .fa-twitter {background: #55acee;  color:#FFF;}
+
+.contact .icon .fa-google {background: #dc4e41;  color:#FFF;}
+
+.contact .icon .fa-youtube  {background: #ff0000;  color:#FFF;}
+
+.contact .icon .fa-instagram  {background: #e1306c;  color:#FFF;}
+
+.footer { background-color: #3b434c; color:#FFF; overflow: hidden; width:100%; height: 100px; margin-top: 0; }
+
+.footer .copy {float: left; margin-top: 40px;}
+ 
+.footer .design {float: right; margin-top: 40px;}
