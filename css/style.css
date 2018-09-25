@@ -1,570 +1,64 @@
-         body
-		 {
-		  margin:0px;
-		  height:auto;
-		 }
-		 
-		 .clear
-		 {
-	   	  clear:both;
-		 }
-		 
-		 .container
-		 {
-		  width:870px;
-	 	  margin:auto;
-		 } 
-		 
-	     .header .slide 
-	     {
-	     height:600px; 
-         background-image:url('../image/3.png');
-		 background-size:cover;
-	     }
-		 
-		 .header .slide  .intro
-		 {
-		  padding-top:200px;
-	 	  text-align:center;	 
-		 }
-		 .header .slide  .intro h2
-		 {
-		 margin:0 auto;	
-		 font-size:50px;
-		 width:600px;
-	     border-top:4px solid #fff;
-		 border-bottom:4px solid #fff;
-		 padding:5px 0;
-		 color:#fff;
-		 }
-		 
-		 .header .slide  .intro button
-		 {
-		  background:none;		
-		  margin-top:30px;
-	 	  font-weight:bold;
-	  	  font-size:20px;
-		  border:2px solid #FFF;
-		  padding:10px 20px;
-	  	  color:#fff;
-		 }
-		 
-		 .header .navbar 
-		 {
-		  background-color:#252F31;
-		  color:#FFF;
-		  overflow:hidden;
-		 }
-		 
-		 .header .navbar h2
-		 {
-		  text-transform:uppercase;
- 		 } 
-		 
-		 .header .navbar h2 span
-		 {
-		 color:#2ecc71;
- 		 } 
-		 
-		 .header .navbar ul
-		 {
-		  list-style:none;	
-		  float:right;
- 		 }
-		 .header .navbar ul li
-		 {
-		   float:left;
-		   padding:10px;   
-		 }
-		 
-	     .header .navbar ul li a
-	     {
-	  	   color:#fff;
-  		   text-decoration:none;
-		 }
-		  
-		 .header .navbar ul li.active a,
-	     .header .navbar ul li a:hover
-	     {
-		  color:#388576;
-	     }
-		 /* end header */
-		 .features
-		 {
-		  overflow:hidden;
-		  padding-top:30px;
-		  padding-bottom:30px;
-		 }
-
-		 .features .feat 
-		 {
-		  width:33.33333%;
-		  height:150px;
-		   
-		 }   
-		 .features .feat h2 
-		 {
-		  color:#444;
-		 }
-		 
-		 .features .feat p
-	     {
-    	 line-height:1.7;
-		 color:#888;
-	     }
-		 
-		  /* end features */
-		  
-         .about 
-		 {	  
-		  background-color:#F2F2F2;
-		  overflow:hidden;
-		 }
-		 
-		 .about .Image  
-		 {
-		  width:45%
-		 }
-		 
-         .about .Image  img
-		 {
-	       width:100%
-		 }
-		 
-		 .about .info 
-		 {
-    	  width:55%
-         }
-			
-	     .about .info h2
-		 {
-		   margin:5px 0 10px 30px;
-	  	   color:#555;
-	     } 
-		 
-	     .about .info > p
-		 {
- 		  margin:0px 0 10px 30px;		
-		 }
-		 
-		 .about .info p
-   	     {
-		 color:#666;
-	     line-height:1.5;
-         }
-          .about .info .hobbies
-	     {
-		  overflow:hidden;
-		  margin:10px 0 0 30px;
-		 }
-          
-	     .about .info .hobbies .content 
-	     {
-		   float:left;
-		   width:50%;
-		   min-height:100px;
-		   overflow:hidden;
-	     }
-		    
-	    .about .info .hobbies .content h3
-  		 {
- 		  color:#555;
-		 }
-			
-	     .about .content .icon 
-		 {
-			 width:12%;
-			 margin-right:5%;
-		 }
-			 			
-		 .about .content .icon img
-  	     {
-	 		max-width:100%; 
-	     }
-		 
-		 .about .info .hobbies .content .text 
-		 {
-			 width:83%;
-		 }
-			  .about .info .hobbies .content .text h3
-			  {
-				  margin-top:0px;
-			  }
-			  /* end about-me */
-
-			  .my-skills
-			  {
-				  padding-top:30px;
-				  padding-bottom:30px;
-				  overflow:hidden;
-			  }
-			  
-			  .my-skills .skills h2 
-			  {	
-			    margin:0px 0 10px 30px;
-				color:#555;  
-			  }
-			  
-			  .my-skills .skills p 
-			  {
-				  margin:10px 0 15px 30px;
-				  line-height:1.4;
-			  }
-			   .my-skills .skills button 
-			   {
-				   background:none;
-				   color:#2DCC70;
-				   margin:10px 0 10px 30px;
-				   border:2px solid #2DCC70;
-				   padding:5px;
-			   }
-			  
-			  .my-skills .skills ,.my-skills .progress
-			  {
-				  width:50%;
-				  float:left;
-			  }
-			  
-			    .my-skills .progress .teach 
-				{
-					margin-left:30px;				
-				}
-				
-			  .my-skills .progress .teach h3 
-			   {	  
-				  color:#555;
-				  margin-top:10px;
-			   }
-			  
-			   .my-skills .progress .teach div
-			   {
-				   background-color:#F2F2F2;
-				   height:25px;  
-			   }
-			    .my-skills .progress .teach div span 
-				{
-					background-color:#2DCC70;
-					height:25px;
-					line-height:25px;
-					text-align:right;
-					display:block;
-					color:#fff;
-					font-weight:bold;
-				}
-              /* start resume */
-             
-			  .resume 
-			  {
-				  background-color:#F2F2F2;
-				  padding-top:50px;
-				  padding-bottom:70px;
-				  text-align:center;
-			  }
-			  
-			  .resume .Res p
-			  {
-				 line-height:1.7;
-			  }
-			   
-			   .resume .Res button 
-			   {
-				  
-				   background:none;
-				   color:#2DCC70;
-				   margin:10px 0 10px 30px;
-				   border:2px solid #2DCC70;
-				   padding:5px;
-			   
-			   }
-              
-			   /* end resume */
-			   /* start education */
-			 .my-education
-			  {
-				  padding-top:30px;
-				  padding-bottom:30px;
-				  overflow:hidden;
-			
-			  } 
-			  
-			  .my-education .main h2 
-			  {	
-			    margin:0px 0 10px 30px;
-				color:#555;  
-			  }
-			  
-			  .my-education .main p 
-			  {
-				  margin:10px 0 15px 30px;
-				  line-height:1.4;
-			  }
-			   
-			  .my-education .main 
-			  {
-				  width:50%;
-				  margin-right:5%;
-			  }
-			  
-			  .my-education .exp
-			  {
-				  width:45%;
-				  overflow:hidden;
-			  }
-			   
-			  .my-education .exp h3
-			  {
-				   margin-top:40px;
-				   margin-bottom:8px;
-			  }
-			   .my-education .exp span
-			   {
-				   margin-bottom:8px;		  
-				   display:block;
-			   }
-			    .my-education .exp span:first-of-type,p
-				{
-					 color:#555;
-				}
-				
-				.my-education .exp span:last-of-type
-				{
-					 color:#FFF;
-					 background-color:#2DCC70;
-					 display:inline-block;	
-					 padding: 5px 10px;
-				}
-		       
-			     .my-education .exp hr 
-				 {
-					 margin:20px 0;
-					 background-color:#555;
-					 height:.0px;
-					
-				 }
-				   .my-education .exp p 
-				   {
-					   line-height:1.5;
-				   }
-				 
-			   .test 
-			  {
-				  overflow:hidden;
-				  background-color:#F2F2F2;
-				  padding-top:50px;
-				  padding-bottom:50px;
-				  text-align:center;
-				
-			  }
-			  
-			  .test q 
-			  {
-				  line-height:1.6;
-				  font-style:italic;
-				  font-weight:bold;
-				  color:#555;
-				  font-size:18px;
-			  }  
-			  .test h3 
-			  {
-				  color:#888;
-				  margin:10px;
-			  }
-			  .test ul 
-			  {
-			      list-style:none;
-				  padding-left:0;
-				  text-align:center;
-			  }
-			  
-			  .test ul li 
-			  {
-				  width:6px;
-				  height:6px;
-				  border:1px solid #2DCC70;
-				  display:inline-block;
-				  cursor:pointer; 
-			  }
-			 
-			   .test ul li:active
-			   ,.test ul li:hover
-			   
-			   { 
-			   background-color:#2DCC70;
-			   }
-			   
-			  .test ul li:first-of-type
-			  {
-				  background-color:#2DCC70;
-			  }
-			  .port 
-			  {
-			      line-height:1.6;
-				  padding-top:30px;
-				  padding-bottom:30px;
-				  text-align:center;
-			  }
-			  .port p
-			  {
-				  padding-bottom:30px;
-				  color:#666;
-		      }
-			  
-			  .port h2 
-			  {
-				  color:#555;
-			  }
-			  .port .work
-			  {
-				  overflow:hidden;
-			  }
-			  .port .work > div 
-			  {
-				  width:33.3333333%;	
-				  margin-bottom:30px; 
-			  }
-			  
-	      	   .port .work > div img
-			   {
-				   width:92%;
-				   margin:10px; 
-                   background-color:#FFF;
-                   padding:2px;
-                   border:1px solid #CCC;
-                   box-shadow: 1px 1px 1px 1px #CCC;
-			   }
-			  
-			  /* End port */
-			  
-			  /* start contact */
-			  
-			   .contact 
-			   {
-				   background-color:#252F31;
-				   overflow:hidden; 
-                   padding-top:30px;
-                   padding-bottom:30px;
-			   }
-			   
-			      .contact .info 
-			   {
-				    width:50%;
-					margin-right:5%;
-			   }
-			   
-			   .contact h2 
-			   {
-				   color:#FFF;
-			   }
-			   
-			   .contact p 
-			   {
-				   color:#6A6E71;
-				   line-height:1.6;
-			   }
-			   
-			    .contact p strong 
-				{
-					color:#D1D6DA;
-				}
-			
-			   .contact .form 
-			   {
-				width:45%;				
-			   }
-			   
-			   .contact .form label
-			   {
-				   display:block;
-				   color:#D1D6DA;
-				   margin-top:10px;
-				   margin-bottom:10px;
-			   }
-			   .contact .form input[type="text"]
-			   {
-				   background-color:#4B5557;
-				   color:#FFF;
-				   padding:10px;
-				   border:0;
-				   width:95%;
-				   
-			   }
-			   
-			    .contact .form textarea 
-				{
-				   height:300px;	
-			       width:400px;
-				   margin-top:10px;
-				   margin-bottom:10px;
-				   background-color:#4B5557;
-				    color:#FFF;
-				}
-				
-				  .contact .form input[type="submit"]
-				  {
-					background-color:#191E22;	
-                    color:#FFF;
-					padding:10px 20px ;
-                    border:0;					
-				  }
-			  .footer 
-			  {
-			      color:#6A6E71;
-				  background-color:#191E22;
-				  padding:20px 0;
-				  text-align:center;
-				  overflow:hidden;
-			  }
-			   
-			 .footer ul 
-			  {
-			      list-style:none;
-				  padding-left:0;
-				  margin:0px;
-				 
-			  }
-			  
-			  .footer ul li 
-			  {
-				  display:inline-block;
-				  float:right;
-			  } 
-			  
-			  .footer ul li  img:hover{color:#FFF;}
-			  
-			  .footer ul li img 
-			  {
-				  padding:2px;
-				  width:20px;
-			  }
-			  
-			  .left_ 
-			  {
-				  float:left;
-			  }
-			   
-			
+body {margin: 0; height:auto;}
 
 
+.container { width: 1170px; margin: auto;}
 
+.header{  background: black; width: 100%; height:100px;}
 
+.header .Logo { float: left; width: 40%; color:#FFF; padding-top: 40px;  font-size: 20px; font-weight: bold;}
 
+.header .Logo span {color: #080; }
 
+.header .nav {float: left; width:50%; float: right; }
 
+.header .nav ul {list-style-type: none;}
 
+.header .nav li {float: left; padding: 20px; margin-left: 25px;}
 
+.header .nav li a {text-decoration: none; color:#fff;}
 
+.header .nav li a:hover {color: #080;}
 
+.about {width:100% ; height: 500px;  overflow: hidden; }
+    
+.about .para p {line-height: 2; width: 70%; margin: 60px auto; font-size: 20px;  margin-top:0; padding-top: 20px; color: #FFF;}
 
+.about .para button { margin-left: 40%; border-radius: 20px; padding: 20px 80px; font-size: 20px; font-weight: bold; cursor: pointer; color :#FFF;  background: #D84780;}
 
+.about .para button:hover {background: #555;}
 
+.about { background-image: url('../image/as.jpg'); background-size: cover;}
 
+.blog {width: 100%; height: 1150px; background: #DDD; padding-top: 35px;  overflow: hidden;  }
 
+.blog  .more {float: left; width: 31.3333%; margin-right: 20px; background: #FFF; border-radius: 20px; margin-bottom: 35px;}
 
+.blog .more img {width:100%;}
 
+.blog .more p { line-height: 1.8; text-align: center; }
 
+.blog .more button { border-radius: 20px; width: 45%; padding: 10px 20px; margin-left: 80px;  cursor: pointer; margin-bottom: 20px;}
 
+.blog .more button:hover {background:#080; color:#FFF; }
 
+.cover {width: 100%; height: 650px; background: #DDD; padding-top: 40px;  background: black; border-bottom: 1px solid #FFF; overflow: hidden;}
 
+.cover  .aboutus {float: left; width: 43%; margin-right: 20px; border-radius: 20px; margin-bottom: 25px; margin-left: 40px; border-bottom: 1px solid #FFF; padding-top: 20px;}
 
+.cover .aboutus h2 { color:#FFF;}
 
-		   
+.cover .aboutus p {line-height: 2; font-size: 20px;  font-weight: bold;  color:#555; }
+
+.form {width: 100%; height: 700px; background:#D84780; overflow: hidden;}
+
+.form .inputs  input{ width:80% ; margin-top: 50px;  margin-bottom: 10px;  line-height: 50px; margin-left: 100px; border-radius: 10px; }
+
+.form .inputs  textarea { width:80% ; margin-top: 30px;  margin-bottom: 10px; line-height: 60px; margin-left: 100px;  border-radius: 10px; } 
+
+.form .inputs  button { border-radius: 20px; width: 40%; padding: 10px 20px; margin-left: 30%;  cursor: pointer; font-weight: bold; font-size: 20px;  margin-top: 30px;} 
+
+.form .inputs button:hover {background:#080; color:#FFF; }
+
+.footer {width: 100%; height: 100px; text-align: center; background: black; color: #FFF; padding-top: 35px; }
+
+.footer i {padding: 10px;}
