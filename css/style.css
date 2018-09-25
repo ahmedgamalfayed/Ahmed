@@ -1,216 +1,185 @@
-* {box-sizing: border-box;}
-
-.clear {clear: both;}
+/* https://www.w3schools.com/w3css/tryw3css_templates_startup.htm */
 
 body {margin: 0;}
 
-.container { width: 1170px; margin: auto; }
+.container {width:1200px; margin: auto;}
 
-.navbar {height: 0; position: relative; z-index: 3; }
+.header { width: 100%; background-color: #FFF; height: 70px; position: fixed; top: 0; left: 0; border-bottom:  2px solid #CCC;}
 
-.navbar .logo {float: left; width:40%; padding-top: 20px; color: #FFF;}
+.header .logo {float: left; }
 
-.navbar .logo p {font-size: 20px; font-weight: bold;}
+.header .logo p {font-size: 20px;} 
 
-.navbar .logo p span {color: #080;}
+.header .logo span {color:#080;}
 
-.navbar .nav {float: left; width:55%; color: #FFF;}
+.header .nav {float: right;}
 
-.navbar .nav ul {float: right; list-style-type: none;}
+.header .nav ul  {float: left; list-style-type: none;}
 
-.navbar .nav ul li { float: left; padding-top: 20px;  margin: 0 20px;}
+.header .nav ul li {float: left; margin: 0 15px;}
 
-.navbar .nav ul li a {text-decoration: none;  color: #FFF;  border-bottom: 1px solid transparent; }
+.header .nav ul li i {margin-right: 10px;}
 
-.navbar .nav ul li a:hover, .navbar .nav ul li.active a { color: #1abc9c; border-bottom: 2px solid #1abc9c; }
+.header .nav ul li a {text-decoration: none; font-size: 20px; color: black;}
 
-.heading {line-height: 400px; color: #FFF; float: left}
+.slider {width:100% ;height:600px; background-image: url('../image/REGxSz.jpg'); background-size: cover;}
 
-.heading p {margin-top: 0 ; font-size: 140px; margin-left: 0 }
+.over { background-color: rgba(49, 55, 61, .5); width: 100%; height: 600px;  }
 
-.heading p span {color:#1abc9c;}
+.slider .slide {padding-top: 200px; margin: 20px; auto; text-align: center; color:#FFF; }
 
-.header { background-image: url('../image/design.jpg'); background-size: cover; position: relative; }
+.slider .slide h2 {font-size: 30px;}
 
-.header .lay {background-color: rgba(0,0,0,.5); position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 1;}
+.slider .slide p {font-size: 20px;}
 
-.services { padding-top: 20px; padding-bottom: 0px;}
+.slider .slide button { padding: 10px 20px;  margin-top: 10px; font-size: 20px; background-color: #CCC; cursor: pointer; border-radius: 20px;}
 
-.services {margin: 0; padding: 40px 20px ;}
+.slider .slide button:hover { background-color: #888; border: 1px solid #888;}
 
-.services h2 {margin: 0 0 50px;  font-weight: normal;  }
+.about-us {width: 100%; height:650px;}
 
-.special-heading {
-    
-    position: relative; 
-    
-}
+.about-us .about {padding-top: 60px; margin: auto; text-align: center;}
 
-.special-heading:after {
-    
-    content: ""; 
-    display: block;
-    top: 40px;
-    position: absolute;
-    border-bottom: 2px solid #333;
-    width:40px;
-}
+.about-us .about h2 {font-size: 30px; font-weight: normal;}
 
-.services .item  {float: left; width: 33.333333%; padding-top: 40px; margin-bottom: 25px;  }
+.about-us .about p {font-size: 19px;}
 
-.services .item i {color:#1abc9c; float: left; width: 20%; margin-right: 5%; margin-top: 10%; margin-left: 5%;}
+.about-us  .lorem {padding-top: 50px;}
 
-.services .item .info { float: left; width: 70%; } 
+.about-us  .lorem .box {float: left; width:25%;}
 
-.services .item h3 { margin-bottom: 10px; }
+.about-us  .lorem .box i {margin-left: 30%;}
 
-.services .item p {line-height: 1.6; color: #555; margin-top: 0;}   
+.about-us  .lorem .box h3 {margin-left: 27%;}
 
-.border {color:#333;}
+.about-us  .lorem .box p {line-height: 1.9; font-size: 16px; font-weight: normal; text-align: center}
 
-.team { padding: 50px 20px ;}
+.design {width: 100%; height: 550px; background: #F1F1F1;  padding-top: 70px; }
 
-.team h2 { font-weight: normal;}
+.design .work {float: left; width:40%; padding-top: 50px;}
 
-.team .box {float: left;}
+.design .work h2 { font-weight: normal; }
 
-.team .box:first-child{ 
-   width:35%;
-}
+.design .work button { padding: 10px 20px;  margin-top: 10px; font-size: 20px; background-color: black; cursor: pointer; color: #FFF; border: 3px solid black}
 
-.team .box:not(:first-child){
-    
-    width: 14.25%;
-    margin-left: 2%;
-    position: relative;
-   
- 
-} 
+.design .work button:hover { background-color: #CCC; border: 3px solid #CCC; color: black}
 
-.team .box:not(:first-child) img {width: 100%; }
+.design .work p {font-size: 16px; line-height: 1.6}
 
-.team .box p {padding-top: 10px; line-height: 1.7; color:#555; font-size: 15px;}
+.design .images {float: left; width: 50%; }
 
-.team .box:not(:first-child) .overlay {
-    
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    bottom: 0;
-    right: 0; 
-    background-color: rgba(26, 188, 156, .9);
-    width: 100%;
-    height:100 %;
-    line-height: 180px;
-    font-size: 20px; 
-    font-weight: bold;
-    display: none;
-    text-align: center;
-    color:#FFF;
-   
-}
+.design .images  img { width:100%; margin-left: 100px; }
 
+.our-team {width:100% ; height:750px; text-align: center; padding-top: 60px;}
 
-.team .box:not(:first-child):hover .overlay {
-    
-    display: block; 
-    
-}
+.our-team h2 {font-size: 30px; font-weight: normal;}
 
+.our-team p {font-size: 19px;}
 
-.testiem {background-image: url('../images%20(5).jpg'); background-size: cover; width: 100%; height:350px; margin-top: 50px; position: relative; text-align: center; padding: 40px 0; }
+.our-team .team  .boxes{float: left; width:23%; border: 1px solid #CCC; padding-bottom: 20px; margin: 10px;}
 
-.testiem .layout {background-color: rgba(0, 0, 0, .7); position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100% ; height: 100%; color: #FFF;}
+.team {padding-top: 40px;}
 
-.testiem h2 { font-size: 40px;}
+.our-team .team  .boxes img {width:100%;}
 
-.testiem q { font-size: 25px; line-height: 1.9; padding-top: 30px; }
+.our-team .team  .boxes h3 {margin-bottom: 14; font-size: 25px;}
 
-.testiem p {font-size: 40px; padding-top: 35px;}
+.our-team .team  .boxes p {line-height: 1.6}
 
-.testiem p span {color:#080; }
+.our-team .team  .boxes button {  padding: 5px 20px;  margin-top: 10px; font-size: 20px; background-color: transparent; cursor: pointer; width:80%; }
 
-.testiem .slider > div {
-    
-    display: none;
-}
+.team .boxes button:hover { background-color: #CCC; }
 
-.testiem .slider > div.active { 
- 
-    display: block;
-    
-}
+.number {width:100%; height: 150px; background-color: #616161; text-align: center; padding-top: 70px; color: #FFF;}
 
-.project { padding: 40px; height: 700px; overflow: hidden;}
+.number .num {width:25%; float: left; }
 
-.project ul {float: left; list-style-type: none;}
+.number .num span { font-size: 40px;}
 
-.project ul li {float: left; padding: 10px 20px ; border: 2px solid #D4CCCC; margin: 10px; cursor: pointer; margin-top: 20px; border-radius: 15px;}
+.number .num p { font-size: 15px;}
 
-.project ul li.active,.project ul li:hover { background-color: #1abc9c; color: #FFF;  border: 2px solid #1abc9c; }
+.our-work {width:100%; height: 800px; text-align: center; padding-top: 50px; }
 
-.project .gllar { margin-top: 50px;  overflow: hidden; float: left; width: 100%}
+.our-work h3 {font-size: 30px; font-weight: normal;}
 
-.project .gllar .row  > div:nth-child(2) {
-    
-    margin-right: 1%;
-    margin-left: 1%;
-  
-}
+.our-work p { font-size: 19px; margin-bottom: 40px;}
 
-.project .gllar .row  > div   {width: 32.666666%; float: left; margin-bottom: 10px; position: relative;}
+.our-work .working  {width:25%; float: left; margin-top: 20px;   }
 
-.project .gllar .row  > div img {width:100%;}
+.our-work .working img { width:95%;}
 
-.project .gllar .row  > div .over {    position: absolute;
-    top: 0; 
-    left: 0; 
-    bottom: 0;
-    right: 0; 
-    background-color: rgba(26, 188, 156, .9);
-    width: 100%;
-    height:100 %;
-    line-height: 230px;
-    font-size: 20px; 
-    font-weight: bold;
-    text-align: center;
-    color:#FFF;
-    display: none;
-}
+.our-skills {width:100%; height: 400px; background-color: #F1F1F1;  padding-top: 70px;}
 
-.project .gllar .row  > div .heart { position: absolute; bottom: 20px; right: 20px; color: #FFF; display: none;}
+.our-skills .skills { width:40%; float: left;}
 
-.project .gllar .row  > div:hover .over, 
-.project .gllar .row  > div:hover .heart {display: block;}
+.our-skills .skills h2 { font-weight: normal;}
 
-.project .mix {display: none;}
+.our-skills .skills p { line-height: 1.5; color:#555;}
 
+.photo {width:50%; float: left; margin-left: 100px;}
 
-.footer {width: 100%; background-color: #232323; color: #EEE; margin-top: 40px;  padding: 40px 0 ; overflow: hidden; color:#6c6c6c; }
+.main i {margin-right: 20px}
 
-.footer .col {width:25%; float: left; }
+.main h2 {font-weight: normal;}
 
-.footer .col h2 { color:#FFF; font-weight: normal; font-size: 18px;  }
+.main div {background: #9E9E9E; height:30px; width:100%; }
 
-.footer .col p {line-height: 1.7; margin-bottom:  30px; font-size: 13px; }
+.main span { background: #616161; height:30px; line-height: 30px; text-align:right; display:block; color:#fff; font-weight:bold;}
 
-.footer .col i { display: inline-block; border: 1px solid #979797; padding: 10px; width:40px; margin: 5px; color: #979797 }
+.pricing {width:100%; height:1000px; background:#616161;  }
 
-.footer  .copy {margin-top: 50px; text-align: center ;}
+.pricing h2 {font-size: 30px; font-weight: normal; padding-top: 100px; color: #FFF; margin-top: 0; margin: auto; text-align: center; margin-bottom: 30px;}
 
-.footer .tags span {display: inline-block; border: 1px solid #979797; padding: 8px; margin-right: 1px; margin-bottom: 10px; color: #CCC; margin-left: 10px;}
+.pricing p  { font-size: 19px;  color:#FFF; margin: auto; text-align: center; margin-bottom: 30px;}
 
-.footer .tags h2 {margin-left: 10px;}
+.pricing .pric {float: left; width:33.33333%; margin-top: 40px;}
 
-.footer .recent > div {overflow: hidden; margin-bottom: 20px;}
+.pricing .pric thead td { background: black; color:#FFF;  font-size: 30px; padding: 30px 150px;}
 
-.footer .recent > div img {
-    
-    float: left; margin-right: 10px; 
-}
+.pricing .pric td { text-align: center; padding: 20px 100px; background: #FFF;  }
 
-.footer .recent > div h4 { margin: 7px 0 ; color: #CCC;  }
- 
-.footer .blg ul li { padding: 15px; border-bottom: 1px solid #CCC; list-style-type: none; color: #CCC; }
+.pricing .pric td  span { font-weight: bold; font-size: 20px;}
 
-.footer .blg h2 {margin-left: 30px;}
+.pricing .pric .body td {padding: 35px 100px;}
+
+.pricing .pric tfoot td { padding: 20px 100px; background: #F1F1F1;}
+
+.pricing .pric tfoot td .but { padding: 20px 30px;  background: black; color:#FFF; cursor: pointer}
+
+.pricing .pric tfoot td .but:hover {background: #D2D2D2; color: black}
+
+.pricing .pric:nth-child(2n) thead td {background-color: red; width:100%;}
+
+.contact { width: 100%; height:800px; background: #F1F1F1; }
+
+.contact h3  {font-size: 30px; font-weight: normal; text-align: center; margin-top: 0; padding-top: 100px;}
+
+.contact p { font-size: 19px; margin-bottom: 40px; text-align: center;}
+
+.contact .phone { width:50%; padding-top: 70px ; float: left}
+
+.contact .phone span {display: block;}
+
+.contact .phone i {margin-right: 20px; margin-bottom: 15px;}
+
+.contact form {margin-top: 30px;}
+
+.contact form  input { display: block; padding: 8px; margin-bottom: 15px; width: 100%; }
+
+.contact .phone form button { padding: 10px 20px; margin-top: 30px; border: 1px sollid #CCC; border-radius: 20px;color:#FFF; background: black ; margin-top: 8; cursor: pointer;}
+
+.contact .phone form button:hover {background: #D2D2D2; color: black}
+
+.map {width:50%; float: left;}
+
+.map img {width: 105%; margin-left: 20px; margin-top: 100px;}
+
+.footer {width:100%; height: 120px; background: #000000; }
+
+.footer .copy {width:50%; float: left;}
+
+.footer .copy p {color:#FFF; font-size: 20px;  padding-top: 30px;}
+
+.footer .icones {  float: left;width: 50%; color: #FFF; padding-top: 40px; }
+
+.footer .icones i {float: right; margin: 10px;}
