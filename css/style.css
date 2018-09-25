@@ -1,64 +1,103 @@
-body {margin: 0; height:auto;}
-
-
-.container { width: 1170px; margin: auto;}
-
-.header{  background: black; width: 100%; height:100px;}
-
-.header .Logo { float: left; width: 40%; color:#FFF; padding-top: 40px;  font-size: 20px; font-weight: bold;}
-
-.header .Logo span {color: #080; }
-
-.header .nav {float: left; width:50%; float: right; }
-
-.header .nav ul {list-style-type: none;}
-
-.header .nav li {float: left; padding: 20px; margin-left: 25px;}
-
-.header .nav li a {text-decoration: none; color:#fff;}
-
-.header .nav li a:hover {color: #080;}
-
-.about {width:100% ; height: 500px;  overflow: hidden; }
+body {
     
-.about .para p {line-height: 2; width: 70%; margin: 60px auto; font-size: 20px;  margin-top:0; padding-top: 20px; color: #FFF;}
+    margin: 0; 
+    height:auto;
+}
 
-.about .para button { margin-left: 40%; border-radius: 20px; padding: 20px 80px; font-size: 20px; font-weight: bold; cursor: pointer; color :#FFF;  background: #D84780;}
+.container 
+{
+   margin: auto;
+   width:1170px;
+}
 
-.about .para button:hover {background: #555;}
+.heading {width: 100%; height:400px; background-color: blueviolet;}
 
-.about { background-image: url('../image/as.jpg'); background-size: cover;}
+.heading .header 
 
-.blog {width: 100%; height: 1150px; background: #DDD; padding-top: 35px;  overflow: hidden;  }
+{
+    width:50%; 
+    float: left;
+    margin-top: 100px;
+   border-right:1px solid #DDD;
+}
 
-.blog  .more {float: left; width: 31.3333%; margin-right: 20px; background: #FFF; border-radius: 20px; margin-bottom: 35px;}
+.heading .header h2 
 
-.blog .more img {width:100%;}
+{
+    width:47%;
+    line-height: 1.6;
+    color:#FFF; 
+    font-size: 25px;
+    margin-left: 40px;
+}
 
-.blog .more p { line-height: 1.8; text-align: center; }
+.heading .header span:hover {color:#00BC8A; cursor: pointer;}
 
-.blog .more button { border-radius: 20px; width: 45%; padding: 10px 20px; margin-left: 80px;  cursor: pointer; margin-bottom: 20px;}
 
-.blog .more button:hover {background:#080; color:#FFF; }
+.heading .Lorem 
 
-.cover {width: 100%; height: 650px; background: #DDD; padding-top: 40px;  background: black; border-bottom: 1px solid #FFF; overflow: hidden;}
+{
+    width: 40%;
+     margin-top: 100px;
+    float: left;
+    margin-left: 7%;
+    line-height: 1.5;
+}
 
-.cover  .aboutus {float: left; width: 43%; margin-right: 20px; border-radius: 20px; margin-bottom: 25px; margin-left: 40px; border-bottom: 1px solid #FFF; padding-top: 20px;}
+.heading .Lorem p {width: 80%; font-weight: bold; color: #999;}
 
-.cover .aboutus h2 { color:#FFF;}
+.heading .Lorem button {padding: 10px 20px ; background:  #00BC8A; border-radius: 20px; color: #FFF; font-size: 18px; cursor:pointer;} 
 
-.cover .aboutus p {line-height: 2; font-size: 20px;  font-weight: bold;  color:#555; }
 
-.form {width: 100%; height: 700px; background:#D84780; overflow: hidden;}
+/* start Manag */
+ 
+.magna {width:100%; height:350px; border-bottom: 2px solid #CCC; padding-top: 50px;  }
 
-.form .inputs  input{ width:80% ; margin-top: 50px;  margin-bottom: 10px;  line-height: 50px; margin-left: 100px; border-radius: 10px; }
+.magna .learn { float: left; width:50%;  border-right: 2px solid #DDD; }
 
-.form .inputs  textarea { width:80% ; margin-top: 30px;  margin-bottom: 10px; line-height: 60px; margin-left: 100px;  border-radius: 10px; } 
+.magna .learn h2 { color:#666}
 
-.form .inputs  button { border-radius: 20px; width: 40%; padding: 10px 20px; margin-left: 30%;  cursor: pointer; font-weight: bold; font-size: 20px;  margin-top: 30px;} 
+.magna .learn p {line-height: 1.7; color:#555; font-size: 20px;}
 
-.form .inputs button:hover {background:#080; color:#FFF; }
+.magna .learn button { border-radius: 20px; padding: 10px 20px ; cursor: pointer; background:#fff }
 
-.footer {width: 100%; height: 100px; text-align: center; background: black; color: #FFF; padding-top: 35px; }
+.amet   {float: left; margin-left: 5%; visibility: hidden;} 
 
-.footer i {padding: 10px;}
+.amet >  p {line-height: 2.5; color:#555 ; font-weight: bold;}
+
+.amet i {padding-right: 8px; color:#00BC8A;}
+
+.pharetra { width: 100%; height: 1400px; padding-top: 50px; padding-bottom: 50px; background: #FAFAFA; overflow: hidden;}
+
+.pharetra .part {padding-bottom: 40px; height: 350px; background: #FFF; border-bottom: 2px solid #CCC;}
+
+.pharetra .part img {float: left; width: 40%; margin-bottom: 60px}
+
+.pharetra .he {float: left; width: 40%; padding-left: 70px; color:#555; line-height: 1.5; font-size: 16px; font-weight: bold;}
+
+.pharetra .he button { border-radius: 20px; padding: 10px 40px ; cursor: pointer; background: #FFF; font-size: 20px; margin-top: 10px; margin-bottom: 10px}
+
+.pharetra .he button:hover {background:#888; color: azure; }
+
+.clear {clear: both;}
+
+.form {width: 100%; height: auto; overflow:hidden; padding-top: 50px; border-bottom: 1px solid #CCC; padding-bottom: 50px;  }
+
+.form .inputs { width: 50%;float: left; border-right: 1px solid #CCC; padding-left: 0;}
+
+.form .inputs p {line-height: 1.7; font-size: 18px; font-weight: bold; color: #555;}
+
+.form .inputs input {width :240px; height: 40px; padding-left: 20px; margin-right: 10px; margin-bottom: 35px; margin-top: 25px;}
+
+.form .inputs textarea { width:90%;}
+
+.form .inputs button 
+{
+    width: 30%; border-radius: 20px; padding: 10px 20px ; margin-top: 15px; cursor: pointer;
+}
+
+.form .link { float: left; padding-left: 50px; width: 40%; padding-bottom: 20px;}
+
+.form .link i {padding-right: 10px; color:#00BC8A; line-height: 1.8;}
+
+.footer {width: 100%; height: 80px; padding-top: 25px; text-align: center; color:#555;}

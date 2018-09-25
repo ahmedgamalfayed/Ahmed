@@ -1,132 +1,113 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title> Template </title>
-        <link rel="stylesheet" href="css/style.css">
-         <link rel="stylesheet" href="css/font-awesome.min.css">
+<head>
+    <meta charset="UTf-8">
+    <title> New Template </title>
+     <link rel = "stylesheet" href="css/font-awesome.min.css">
+     <link rel = "stylesheet" href="css/normalize.css">
+    <link rel = "stylesheet" href="css/style.css">
+    
+    
     </head>
-
+    
     <body>
-     
-        <div class="header">
+    <div class="heading">
         <div class="container">
-            <div class="Logo">
-              <span>El</span> Mo7arb 
+        <div class="header">
+            <h2> Welcome to Prism, a free responsive site template by <span>TEMPLATED</span>  </h2>
             </div>
-            <div class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Message</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Call Me</a></li>
-                </ul>
-            </div>
+            <div class="Lorem"> <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Phasellus aliquam et tempus lorem dolor feugiat adipiscing lorem.</p> 
+            <button id = "butt" onmousemove="hoverButton()" onmouseout="hoverOut()"> Get Started</button>
             </div>
         </div>
-      
-        <div class="about">
-         <div class="container">
-            <div class="para">
-             <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine.</p>
-             <button> Read More </button>
-             </div>
+        </div>
+        
+        <div class="magna">
+        <div class="container">
+            <div class="learn">
+            <h2>Magna feugiat adipiscing</h2>
+            <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus aliquam et tempus lorem feugiat adipiscing lorem. Morbi pharetra vitae felis placerat pharetra. Nulla risus orci, dapibus id malesuada et nec, malesuada quis orci. Pellentesque eget consequat.</p>
+            <button onclick= "show()"  ondblclick="hide()"> Learn More </button>
+            </div>
+            
+            <div class="amet" id="butt2" >
+             <p><i class="fa fa-check"></i>Ipsum nisl sed cursus magna</p>
+             <p><i class="fa fa-check"></i>Amet veroeros sed aliquam consequat</p>
+             <p><i class="fa fa-check"></i>Tempus lorem adipiscing et lorem</p>
+             <p><i class="fa fa-check"></i>Morbi pharetra vitae felis placerat</p>
+             <p><i class="fa fa-check"></i>Pharetra nulla risus orci dapibus</p>
+            </div>
             </div>
         </div>
         
-        <div class="blog">
+        <div class="pharetra">
         <div class="container">
-            <div class="blogmore">
-            <div class="more" >
-                <img src="image/%D8%AE%D9%84%D9%81%D9%8A%D9%87.jpg" alt ="" > 
-                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-                <button> Read More </button>
-                </div>
-                
-                 <div class="more">
-                <img src="image/خلفيه.jpg" alt ="" > 
-                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-                <button> Read More </button>
-                </div>
-                
-                
-                 <div class="more">
-                <img src="image/خلفيه.jpg" alt ="" > 
-                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-                <button> Read More </button>
-                </div>
-                
-                
-                 <div class="more">
-                <img src="image/خلفيه.jpg" alt ="" > 
-                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-                <button> Read More </button>
-                </div>
-                
-                 <div class="more">
-                <img src="image/خلفيه.jpg" alt ="" > 
-                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-                <button> Read More </button>
-                </div>
-                
-                
-                 <div class="more">
-                <img src="image/خلفيه.jpg" alt ="" > 
-                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-                <button> Read More </button>
-                </div>
+         <div class="part">
+         <img src="image/pic01.jpg" onmouseout="hoverNum()"> 
+            <div class="he">
+            <h2>Ipsum pharetra tempus</h2>
+            <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada quis orci. Pellentesque eget consequat.</p>
+            <button>Details</button>
+            <p> You Hovered : <span id ="img1"></span></p>
             </div>
             </div>
+            
+            <div class="clear"></div>
+            
+         <div class="part">
+         <img src="image/pic02.jpg" onmouseout="hoverNum2()"> 
+            <div class="he">
+            <h2>Magna consequat felis</h2>
+            <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada quis orci. Pellentesque eget consequat.</p>
+            <button>Details</button>
+                  <p> You Hovered : <span id ="img2"></span></p>
+            </div>
+            </div> 
+            
+            <div class="clear"></div>
+            
+              <div class="part">
+         <img src="image/pic03.jpg" onmouseout="hoverNum3()"> 
+            <div class="he">
+            <h2>Vitae placerat adipiscing</h2>
+            <p>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada quis orci. Pellentesque eget consequat.</p>
+            <button>Details</button>
+                  <p> You Hovered : <span id ="img3"></span></p>
+            </div>
+            </div>    
         </div>
-      <!--  cogs feather-alt  drafting-compass --->
-        <div class="cover">
-        <div class="container">
-            <div class="aboutus">
-            <h2><i class="fa fa-check"></i> Intger varible</h2>
-            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-            </div>
-            
-            
-             <div class="aboutus">
-            <h2><i class="fa fa-check"></i> Intger varible</h2>
-            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-            </div>
-            
-            
-             <div class="aboutus">
-            <h2><i class="fa fa-check"></i> Intger varible</h2>
-            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-            </div>
-            
-             <div class="aboutus">
-            <h2><i class="fa fa-check"></i> Intger varible</h2>
-            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</p>
-            </div>
-            </div>
         </div>
         
         <div class="form">
         <div class="container">
             <div class="inputs">
-            <input type="text"  placeholder="Name : ">
-            <input type="text" placeholder="E-mail : ">
-            <textarea cols="60" rows="5" placeholder="Message : "></textarea>
-            <button> Read More </button>
+            <h2>Orci malesuada</h2>
+            <p>Morbi pharetra vitae felis placerat pharetra. Nulla risus orci, dapibus id malesuada et nec, malesuada quis pellentesque eget.</p>
+                <form>
+            <input type="text" name ="name" placeholder="Name">
+             <input type="text" name ="email" placeholder="E-mail">
+             <textarea placeholder="Message" cols="65" rows="10"></textarea>
+             <button>Send Message</button>
+             </form>
+           </div>
+             <div class="link">
+                 <p id ="click"><i class="fa fa-twitter" onclick="font()" ondblclick="hideFont()"></i>twitter.com/untitled-tld</p>
+                 <p id = "click2"><i class="fa fa-facebook" onclick="font2()" ondblclick="hideFont2()" ></i>facebook.com/untitled-tld</p>
+                 <p id ="click3"><i class="fa fa-instagram" onclick="font3()" ondblclick="hideFont3()"></i>instagram.com/untitled-tld</p>
+                 <p id ="click4"><i class="fa fa-envelope" onclick="font4()" ondblclick="hideFont4()"></i>information@untitled.tld</p>
+                 <p id ="click5"><i class="fa fa-home"onclick="font5()" ondblclick="hideFont5()"></i>1234 Somewhere Road Suite 9823
+Nashville, TN 00000-0000</p>
             </div>
+                 
             </div>
         </div>
         
-       <div class="footer">
+        <div class="footer">
         <div class="container">
-          <p> &copy; Untitled. All rights reserved. Images: Unsplash. Design: TEMPLATED.</p>
-            <i class=" fa fa-twitter"></i>
-              <i class=" fa fa-facebook"></i>
-              <i class=" fa fa-youtube"></i>
-              <i class=" fa fa-home"></i>
-           </div>
+            <p>&copy; Untitled. All rights reserved. Images: Unsplash. Design: TEMPLATED.</p>
+            </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
-    
